@@ -136,19 +136,6 @@
 				android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="false" />
 
 			<!--suppress AndroidDomInspection -->
-			<activity android:name="com.jirbo.adcolony.AdColonyOverlay"
-				android:configChanges="keyboardHidden|orientation|screenSize"
-				android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-			<!--suppress AndroidDomInspection -->
-			<activity android:name="com.jirbo.adcolony.AdColonyFullscreen"
-				android:configChanges="keyboardHidden|orientation|screenSize"
-				android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
-			<!--suppress AndroidDomInspection -->
-			<activity android:name="com.jirbo.adcolony.AdColonyBrowser"
-				android:configChanges="keyboardHidden|orientation|screenSize"
-				android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
-
-			<!--suppress AndroidDomInspection -->
 			<activity android:name="com.vungle.publisher.VideoFullScreenAdActivity"
 				android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
 				android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
@@ -238,7 +225,6 @@
         <source-file src="libs/Android/unity_ads-2.1.0.jar" target-dir="libs" />
         <source-file src="libs/Android/yandex-metrica-2.73.jar" target-dir="libs" />
 		<source-file src="libs/Android/startapp-3.6.2.jar" target-dir="libs" />
-        <framework src="libs/Android/adcolony" custom="true" />
     </platform>
 
     <platform name="ios">
@@ -302,9 +288,6 @@
         <!-- Appodeal -->
         <framework custom="true" src="libs/iOS/Appodeal/Appodeal.framework"/>
         <resource-file src="libs/iOS/Appodeal/Appodeal.bundle"/>
-        <!-- AdColony -->
-        <framework custom="true" src="libs/iOS/Adapters/APDAdColonyAdapter.embeddedframework/AdColony.framework"/>
-        <source-file src="libs/iOS/Adapters/APDAdColonyAdapter.embeddedframework/libAPDAdColonyAdapter.a" framework="true"/>
         <!-- Amazon -->
         <framework custom="true" src="libs/iOS/Adapters/APDAmazonAdsAdapter.embeddedframework/AmazonAd.framework"/>
         <source-file src="libs/iOS/Adapters/APDAmazonAdsAdapter.embeddedframework/libAPDAmazonAdsAdapter.a" framework="true"/>
