@@ -100,8 +100,6 @@
 			<service android:name="com.startapp.android.publish.common.metaData.PeriodicMetaDataService" />
 			<!--suppress AndroidDomInspection -->
 			<service android:name="com.startapp.android.publish.common.metaData.InfoEventService" />
-
-
 			<service android:name="com.yandex.metrica.MetricaService" android:enabled="true"
 				android:exported="true" android:process=":Metrica">
 				<intent-filter>
@@ -134,7 +132,6 @@
 			<activity android:name="com.unity3d.ads2.adunit.AdUnitSoftwareActivity"
 				android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
 				android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="false" />
-
 			<!--suppress AndroidDomInspection -->
 			<activity android:name="com.vungle.publisher.VideoFullScreenAdActivity"
 				android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
