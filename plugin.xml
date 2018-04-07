@@ -190,10 +190,7 @@
 				<intent-filter>
 					<action android:name="com.inmobi.share.id"/>
 				</intent-filter>
-			</receiver>
-        </config-file>
-        <config-file parent="/manifest/application" target="AndroidManifest.xml">
-        
+			</receiver>        
         </config-file>
         <source-file src="src/android/AppodealPlugin.java" target-dir="src/com/appodeal/plugin" />
         <source-file src="libs/Android/applovin-7.4.0.jar" target-dir="libs" />
